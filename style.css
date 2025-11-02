@@ -36,11 +36,7 @@ body{
     z-index: 100;
 
 }
-#menu-icon{
-    width: 5rem;
-    height: 5rem;
-    color: var(--main-color);
-}
+
 .logo{
 font-size: 3rem;
 color: var(--text-color);
@@ -310,7 +306,7 @@ gap: 2.5rem;
 .footer ul li a:hover{
     border-bottom: 3px solid var(--main-color);
 }
-.footer copyright{
+.footer .copyright{
     text-align: center;
     margin-top: 40px;
     font-size: 16px;
@@ -367,4 +363,9 @@ gap: 2.5rem;
     .contact form{
         flex-direction: column;
     }
+    #menu-icon{
+    width: 5rem;
+    height: 5rem;
+    color: var(--main-color);
+}
 }
